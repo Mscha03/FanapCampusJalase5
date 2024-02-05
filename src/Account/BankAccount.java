@@ -1,53 +1,45 @@
 package Account;
 
 public class BankAccount {
-    protected int accountNumber;
-    protected int Balance;
-    protected String customerName;
-    protected String customerEmail;
-    protected String customerPhoneNumber;
+    private int accountNumber;
+    private int Balance;
+    private String customerName;
+    private String customerEmail;
+    private String customerPhoneNumber;
 
 
     // getter and setter
     public int getAccountNumber() {
         return accountNumber;
     }
-
     public void setAccountNumber(int accountNumber) {
         this.accountNumber = accountNumber;
     }
-
     public int getBalance() {
         return Balance;
     }
-
     public void setBalance(int balance) {
         Balance = balance;
     }
-
     public String getCustomerName() {
         return customerName;
     }
-
     public void setCustomerName(String customerName) {
         this.customerName = customerName;
     }
-
     public String getCustomerEmail() {
         return customerEmail;
     }
-
     public void setCustomerEmail(String customerEmail) {
         this.customerEmail = customerEmail;
     }
-
     public String getCustomerPhoneNumber() {
         return customerPhoneNumber;
     }
-
     public void setCustomerPhoneNumber(String customerPhoneNumber) {
         this.customerPhoneNumber = customerPhoneNumber;
     }
+
 
 
     // put money to account
